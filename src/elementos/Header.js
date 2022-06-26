@@ -24,7 +24,7 @@ const Titulo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 
   @media (max-width: 60rem) {
     margin-left: 0;

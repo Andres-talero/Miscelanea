@@ -8,6 +8,7 @@ import Boton from "./../elementos/Boton";
 import icono from "././../imagenes/icono_dark.png";
 import { Link } from 'react-router-dom';
 
+
 const HeaderComponent = () => {
   return (
     <>

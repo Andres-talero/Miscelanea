@@ -10,7 +10,7 @@ const Boton = styled(Link)`
     border-radius: 0.625rem; /* 10px */
     color: #fff;
     font-family: 'Work Sans', sans-serif;
-    height: ${(props) => props.header ? '70%' : '3.75rem'}; /* 60px */
+    height: ${(props) => props.header ? '4rem' : '3.75rem'}; /* 60px */
     margin: ${(props) => props.header ? '0 1rem' : '0'}; /* 60px */
     padding: 1.25rem 1.87rem; /* 20px 30px */
     font-size: ${(props) => props.header ? '1.5rem' : '1.25rem'}; /* 20px */
