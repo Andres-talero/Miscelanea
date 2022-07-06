@@ -7,8 +7,9 @@ import Typed from "react-typed";
 const ContenedorPrincipal = styled.div`
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   background-image: url(${fondo});
-  filter: saturate(1.7);
+  filter: saturate(1.3);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,9 +91,9 @@ const PrincipalBanner = () => {
             <ContenedorTyped>
               <Typed
                 strings={[
-                  "I'm a Full Stack Developer",
-                  "I Love Software Development",
-                  "I Love All My Subscribers",
+                  "La más alta calidad,",
+                  "Los mejores productos",
+                  "Y un servicio excepcional.",
                 ]}
                 typeSpeed={50}
                 backSpeed={40}

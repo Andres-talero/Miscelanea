@@ -27,7 +27,7 @@ const HeaderComponent = () => {
         <Header.Collapse id="responsive-navbar-nav">
           <HeaderNav className="me-auto"></HeaderNav>
           <HeaderNav>
-            <Boton as={Link} to="/" primario header>Productos</Boton>
+            <Boton primario header as={Link} to="/">Productos</Boton>
             <HeaderNav.Link eventKey={2} href="#memes">
               Dank memes
             </HeaderNav.Link>

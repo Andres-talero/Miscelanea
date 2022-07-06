@@ -4,7 +4,7 @@ import {  Navbar, Nav } from "react-bootstrap";
 const Header = styled(Navbar)`
   backdrop-filter: blur(10px);
   font-size: 1.5rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   margin-bottom: 2rem;
 
   transition: all 0.5s ease;
